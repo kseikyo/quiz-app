@@ -7,7 +7,7 @@ export default class Tema extends Component {
             <View style={styles.container}>
                 <Text>{this.props.title}</Text>
                 <Image
-                    source={require(this.props.imageUri)}
+                    source={this.props.imageUri}
                     style={styles.image}
                 />
             </View>
@@ -17,9 +17,12 @@ export default class Tema extends Component {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1
+        flex: 1,
+        alignItems: "center"
     },
     image: {
-        borderRadius: 10
+        width: 100,
+        height: 100,
+        borderRadius: 100
     }
 });
