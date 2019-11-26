@@ -1,0 +1,214 @@
+{
+    "Ciências": [
+        {
+            "id": 1,
+            "pergunta": "Qual o primeiro planeta do sistema solar?",
+            "correta": "Mercurio",
+            "errada":[
+                "Vênus",
+                "Terra",
+                "Marte",
+                "Jupiter",
+                "Saturno",
+                "Urano",
+                "Netuno"
+            ]
+        },
+        {
+            "id": 2,
+            "pergunta": "Qual animal é um réptil?",
+            "correta": "Lagarto",
+            "errada":[
+                "Cachorro",
+                "Sapo",
+                "Borboleta",
+                "Gato",
+                "Rã",
+                "Morcego",
+                "Piranha"
+            ]
+        },
+        {
+            "id": 3,
+            "pergunta": "Qual é o único mamifero voador?",
+            "correta": "Morcego",
+            "errada":[
+                "Barata",
+                "Borboleta",
+                "Pinguim",
+                "Pardal",
+                "Albatroz",
+                "Pomba",
+                "Cegonha"
+            ]
+        },
+        {
+            "id": 4,
+            "pergunta": "O sapo é um ...?",
+            "correta": "Anfíbio",
+            "errada":[
+                "Réptil",
+                "Mamifero",
+                "Ave",
+                "Peixe",
+                "Protozoário",
+                "Invertebrado",
+                "Molusco"
+            ]
+        },
+        {
+            "id": 5,
+            "pergunta": "Quais são as três cores primárias?",
+            "correta": "Vermelho - Amarelo - Azul",
+            "errada":[
+                "Vermelho - Verde - Amarelo",
+                "Vermelho - Amarelo - Roxo",
+                "Azul - Verde - Vermelho",
+                "Azul - Verde - Amarelo",
+                "Amarelo - Roxo - Verde",
+                "Roxo - Cinza - Preto",
+                "Preto - Branco - Cinza"
+            ]
+        },
+        {
+            "id": 6,
+            "pergunta": "Qual não é uma cor do arco-íris?",
+            "correta": "Cinza",
+            "errada":[
+                "Vermelho",
+                "Laranja",
+                "Amarelo",
+                "Verde",
+                "Azul",
+                "Anil ou Índigo",
+                "Violeta"
+            ]
+        },
+        {
+            "id": 7,
+            "pergunta": "O que é o Sol?",
+            "correta": "Uma Estrela",
+            "errada":[
+                "Um planeta",
+                "Uma meteoro",
+                "Um cometa",
+                "Um satélite",
+                "Uma Constelação",
+                "Uma Galáxia",
+                "Uma lâmpada gigante"
+            ]
+        },
+        {
+            "id": 8,
+            "pergunta": "Qual cor resulta da junção de vermelho com azul?",
+            "correta": "Roxo",
+            "errada":[
+                "Verde",
+                "Azul",
+                "Branco",
+                "Cinza",
+                "Preto",
+                "Laranja",
+                "Marrom"
+            ]
+        },
+        {
+            "id": 9,
+            "pergunta": "Qual orgão do corpo humano é responsável por bombear o sangue?",
+            "correta": "Coração",
+            "errada":[
+                "Pulmão",
+                "Fígado",
+                "Rins",
+                "Pele",
+                "Intestino",
+                "Diafragma",
+                "Cérebro"
+            ]
+        },
+        {
+            "id": 10,
+            "pergunta": "Qual o nome da nossa galáxia?",
+            "correta": "Via Láctea",
+            "errada":[
+                "Andrômeda",
+                "Caminho do Sol",
+                "Sistema Solar",
+                "Galáxia Humanoide",
+                "Galáxia do Sol",
+                "Solárium",
+                "Órion"
+            ]
+        },
+        {
+            "id": 11,
+            "pergunta": "Quantos planetas existem no Sistema Solar atualmente(2019)?",
+            "correta": "8",
+            "errada":[
+                "9",
+                "10",
+                "11",
+                "12",
+                "7",
+                "6",
+                "5"
+            ]
+        },
+        {
+            "id": 12,
+            "pergunta": "Qual o nome do sistema que é responsável por obter dos alimentos os nutrientes para o corpo?",
+            "correta": "Sistema digestório",
+            "errada":[
+                "Sistema reprodutor",
+                "Sistema respiratório",
+                "Sistema nervoso",
+                "Sistema cardiovascular",
+                "Sistema excretor",
+                "Sistema linfático",
+                "Sistema muscular"
+            ]
+        },
+        {
+            "id": 13,
+            "pergunta": "Qual desses animais não é um invertebrado?",
+            "correta": "rato",
+            "errada":[
+                "Aranha",
+                "Borboleta",
+                "Polvo",
+                "Lula",
+                "Minhoca",
+                "Abelha",
+                "Mosquito"
+            ]
+        },
+        {
+            "id": 14,
+            "pergunta": "Por meio da ... as plantas absorvem água e sais minerais. Qual a alternativa correta para completar a frase?",
+            "correta": "Raiz",
+            "errada":[
+                "Caule",
+                "Folhas",
+                "Fruto",
+                "Semente",
+                "Flores",
+                "Tronco",
+                "Copa"
+            ]
+        },
+        {
+            "id": 15,
+            "pergunta": "Qual dessas não é uma cor fria?",
+            "correta": "Amarelo",
+            "errada":[
+                "Azul",
+                "Verde",
+                "Roxo",
+                "Violeta",
+                "Verde Esmeralda",
+                "Verde água",
+                "Azul marinho"
+            ]
+        }
+    ]
+}

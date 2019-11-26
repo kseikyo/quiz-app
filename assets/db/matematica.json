@@ -1,0 +1,215 @@
+{
+    "Matemática": [
+        {
+            "id": 1,
+            "pergunta": "Qual o resultado de 100/0 ?",
+            "correta": "Não é possível divisão por zero",
+            "errada":[
+                "0",
+                "100",
+                "1",
+                "10",
+                "0.001",
+                "0.01",
+                "0.1"
+            ]
+        },
+        {
+            "id": 2,
+            "pergunta": "Qual a figura geométrica que contém apenas 3 lados?",
+            "correta": "Triângulo",
+            "errada":[
+                "Quadrado",
+                "Hexágono",
+                "Retângulo",
+                "Pentágono",
+                "Losango",
+                "Trapézio",
+                "Octógono"
+            ]
+        },
+        {
+            "id": 3,
+            "pergunta": "Qual é o resultado de (40 x 1000 x 9.99 x 0 )?",
+            "correta": "0",
+            "errada":[
+                "396.000",
+                "39.600",
+                "0.396",
+                "40000",
+                "999",
+                "4010009.990",
+                "1"
+            ]
+        },
+        {
+            "id": 4,
+            "pergunta": "Qual o nome da figura geométrica com 4 lados iguais e com ângulos de 90°?",
+            "correta": "Quadrado",
+            "errada":[
+                "Retângulo",
+                "Trapézio",
+                "Losango",
+                "Triângulo",
+                "Hexágono",
+                "Circulo",
+                "Esfera"
+            ]
+        },
+        {
+            "id": 5,
+            "pergunta": "Como é chamado o resultado de uma divisão?",
+            "correta": "Quociente",
+            "errada":[
+                "Dividendo",
+                "Divisor",
+                "Dividido",
+                "Divil",
+                "Produto",
+                "Soma",
+                "Divisando"
+            ]
+        },
+        {
+            "id": 6,
+            "pergunta": "Quanto vale uma dúzia?",
+            "correta": "12",
+            "errada":[
+                "6",
+                "8",
+                "10",
+                "1",
+                "0",
+                "24",
+                "38"
+            ]
+        },
+         {
+            "id": 7,
+            "pergunta": "Uma fração é composta por um numerador e um ... ?",
+            "correta": "Denominador",
+            "errada":[
+                "Nominador",
+                "Numerando",
+                "Numerado",
+                "Denominado",
+                "Determinador",
+                "Divisor",
+                "Dividendo"
+            ]
+        },
+        {
+            "id": 8,
+            "pergunta": "Um século possui quantos anos?",
+            "correta": "100",
+            "errada":[
+                "1000",
+                "10",
+                "12",
+                "20",
+                "50",
+                "5",
+                "1"
+            ]
+        },
+        {
+            "id": 9,
+            "pergunta": "Quanto vale o algarismo romano XXIV?",
+            "correta": "24",
+            "errada":[
+                "26",
+                "16",
+                "14",
+                "18",
+                "90",
+                "2014",
+                "204"
+            ]
+        },
+        {
+            "id": 10,
+            "pergunta": "Quanto é 500 em algarismos romano?",
+            "correta": "D",
+            "errada":[
+                "L",
+                "X",
+                "V",
+                "I",
+                "MM",
+                "M",
+                "C"
+            ]
+        },
+        {
+            "id": 11,
+            "pergunta": "Quantos anos tem uma década?",
+            "correta": "10",
+            "errada":[
+                "100",
+                "12",
+                "50",
+                "35",
+                "1",
+                "75",
+                "5"
+            ]
+        },
+         {
+            "id": 12,
+            "pergunta": "Quanto é um quinto (1/5) de 1000?",
+            "correta": "200",
+            "errada":[
+                "250",
+                "300",
+                "500",
+                "0.500",
+                "0.250",
+                "1000",
+                "5000"
+            ]
+        },
+         {
+            "id": 13,
+            "pergunta": "Qual o resultado da conta 25 * 8 ?",
+            "correta": "200",
+            "errada":[
+                "100",
+                "165",
+                "180",
+                "80",
+                "65",
+                "50",
+                "150"
+            ]
+        },
+         {
+            "id": 14,
+            "pergunta": "Um semestre possui quantos meses?",
+            "correta": "6",
+            "errada":[
+                "5",
+                "4",
+                "3",
+                "2",
+                "1",
+                "12",
+                "8"
+            ]
+        },
+        {
+            "id": 15,
+            "pergunta": "Quanto meses possui um trimestre?",
+            "correta": "3",
+            "errada":[
+                "5",
+                "6",
+                "2",
+                "8",
+                "12",
+                "100",
+                "10"
+            ]
+        }
+    ]
+}
+
