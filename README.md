@@ -6,4 +6,3 @@ Após isso entre na pasta onde foi instalado o projeto e execute
 ```bash
 npm i
 ```
-
