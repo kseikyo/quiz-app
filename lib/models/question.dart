@@ -10,25 +10,34 @@ enum Difficulty {
 }
 
 class Question {
-  final String categoryName;
   final Type type;
-  final Difficulty difficulty;
+  final String id;
   final String question;
   final String correctAnswer;
   final List<dynamic> incorrectAnswers;
 
-  Question({this.categoryName, this.type, this.difficulty, this.question, this.correctAnswer, this.incorrectAnswers});
+  Question({this.type, this.id, this.question, this.correctAnswer, this.incorrectAnswers});
+
+  factory Question.fromJson(Map<String, dynamic> parsedJson) {
+
+    return Question(
+      type: Type.multiple,
+      id: parsedJson['id'],
+      question: parsedJson['pergunta'],
+      correctAnswer: parsedJson['correta'],
+      incorrectAnswers: parsedJson['errada']
+    );
+  }
 
   Question.fromMap(Map<String, dynamic> data):
-    categoryName = data["category"],
-    type = data["type"] == "multiple" ? Type.multiple : Type.boolean,
-    difficulty = data["difficulty"] == "easy" ? Difficulty.easy : data["difficulty"] == "medium" ? Difficulty.medium : Difficulty.hard,
-    question = data["question"],
-    correctAnswer = data["correct_answer"],
-    incorrectAnswers = data["incorrect_answers"];
+    type = Type.multiple,
+    id = data['id'],
+    question = data["pergunta"],
+    correctAnswer = data["correta"],
+    incorrectAnswers = data["errada"];
 
   static List<Question> fromData(List<Map<String,dynamic>> data){
-    return data.map((question) => Question.fromMap(question)).toList();
+    return data.map((question) => Question.fromJson(question)).toList();
   }
 
 }

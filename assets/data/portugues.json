@@ -1,0 +1,216 @@
+{
+    "category": "Português",
+    "Perguntas": [
+        {
+            "id": 1,
+            "pergunta": "Qual o femino de javali?",
+            "correta": "Javalina",
+            "errada":[
+                "Javali",
+                "Javala",
+                "Javasca",
+                "Java",
+                "Porca",
+                "Javale",
+                "Javaline"
+            ]
+        },
+        {
+            "id": 2,
+            "pergunta": "Qual o masculino de lhama?",
+            "correta": "Lhama",
+            "errada":[
+                "Lhamo",
+                "Lhamu",
+                "Lhame",
+                "Lhamau",
+                "Dromedário",
+                "Komodo",
+                "Lhamisco"
+            ]
+        },
+        {
+            "id": 3,
+            "pergunta": "Qual o coletivo de lobos?",
+            "correta": "Alcateia",
+            "errada":[
+                "Matilha",
+                "Bando",
+                "Cardume",
+                "Manada",
+                "Tropa",
+                "Lobada",
+                "Lobiscada"
+            ]
+        },
+        {
+            "id": 4,
+            "pergunta": "Qual o coletivo de cavalos?",
+            "correta": "Tropa",
+            "errada":[
+                "Boiada",
+                "Bando",
+                "Vara",
+                "Cavalada",
+                "Potro",
+                "Enxame",
+                "Réstia"
+            ]
+        },
+        {
+            "id": 5,
+            "pergunta": "Qual o coletivo de flores?",
+            "correta": "Ramalhete",
+            "errada":[
+                "Buque",
+                "Floresta",
+                "Penca",
+                "Réstia",
+                "Olival",
+                "Cacho",
+                "Floredo"
+            ]
+        },
+        {
+            "id": 6,
+            "pergunta": "Qual o coletivo de borboletas?",
+            "correta": "Panapaná",
+            "errada":[
+                "Borboletario",
+                "Borboletas",
+                "Borboletol",
+                "Panametas",
+                "Borbonamá",
+                "Parnatas",
+                "Borpaná"
+            ]
+        },
+         {
+            "id": 7,
+            "pergunta": "Qual o coletivo de gatos?",
+            "correta": "Gataria",
+            "errada":[
+                "Gatilha",
+                "Manada",
+                "Tropa",
+                "Fato",
+                "Alcateia",
+                "Revoada",
+                "Gatil"
+            ]
+        },
+        {
+            "id": 8,
+            "pergunta": "Qual o plural de lilás?",
+            "correta": "Lilases",
+            "errada":[
+                "Lilás",
+                "Lilázes",
+                "Lileta",
+                "Lilasta",
+                "Lilangeta",
+                "Lilales",
+                "Lila"
+            ]
+        },
+        {
+            "id": 9,
+            "pergunta": "Qual o plural de girassol?",
+            "correta": "Girassóis",
+            "errada":[
+                "Girassols",
+                "Girasoles",
+                "RodaSois",
+                "Girassol",
+                "Girassóises",
+                "Girasolis",
+                "Girassolses"
+            ]
+        },
+        {
+            "id": 10,
+            "pergunta": "Qual o plural de pão?",
+            "correta": "Pães",
+            "errada":[
+                "Pãos",
+                "Paes",
+                "Pões",
+                "Pão",
+                "Pãez",
+                "Pãesses",
+                "Pãoes"
+            ]
+        },
+        {
+            "id": 11,
+            "pergunta": "Qual a separação silábica da palavra Eclipse?",
+            "correta": "E-clip-se",
+            "errada":[
+                "E-cli-pse",
+                "Ecli-pse",
+                "Ec-li-pse",
+                "Ecli-ps-e",
+                "E-clipse",
+                "Ec-lip-se",
+                "Ecli-p-se"
+            ]
+        },
+         {
+            "id": 12,
+            "pergunta": "Qual alternativa define um adjetivo?",
+            "correta": "Indica uma característica",
+            "errada":[
+                "Indica uma ação",
+                "Indica um tempo verbal",
+                "Indica um sujeito",
+                "Indica um nome",
+                "Indica uma contradição",
+                "Indica uma concordância",
+                "Indica um vocabulário"
+            ]
+        },
+         {
+            "id": 13,
+            "pergunta": "Qual alternativa define um verbo?",
+            "correta": "Indica uma ação",
+            "errada":[
+                "Indica uma característica",
+                "Indica um tempo verbal",
+                "Indica um sujeito",
+                "Indica uma chance de algo acontecer",
+                "Indica uma contradição",
+                "Indica uma concordância",
+                "Indica um vocabulário"
+            ]
+        },
+         {
+            "id": 14,
+            "pergunta": "O que é um antônimo?",
+            "correta": "Palavra cujo significado é o oposto ao de outra",
+            "errada":[
+                "Palavra que representa uma característica do sujeito",
+                "Palavra que indica uma ação do sujeito",
+                "Palavra que indica a chance de algo acontecer",
+                "Palavra que indica uma concordância com outra",
+                "Palavra que tenta explicar outra",
+                "Palavra que indica o passado de outra",
+                "Palavra que indica o futuro de outra"
+            ]
+        },
+         {
+            "id": 15,
+            "pergunta": "Qual o sinônimo de passado?",
+            "correta": "Pretérito",
+            "errada":[
+                "Futuro",
+                "Presente",
+                "Continuo",
+                "Porvir",
+                "Atualidade",
+                "Moderno",
+                "Vigente"
+            ]
+        }
+    ]
+}
+

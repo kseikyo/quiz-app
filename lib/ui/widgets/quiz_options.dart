@@ -151,7 +151,7 @@ class _QuizOptionsDialogState extends State<QuizOptionsDialog> {
       processing=true;
     });
     try {
-      List<Question> questions =  await getQuestions(widget.category, _noOfQuestions, _difficulty);
+      List<Question> questions =  await getQuestions(widget.category);
       Navigator.pop(context);
       if(questions.length < 1) {
         Navigator.of(context).push(MaterialPageRoute(

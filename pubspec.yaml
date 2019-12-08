@@ -23,7 +23,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
+  assets:
+    - assets/data/ciencias.json
+    - assets/data/matematica.json
+    - assets/data/portugues.json
   fonts:
     - family: Montserrat
       fonts:
