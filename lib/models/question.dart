@@ -16,6 +16,10 @@ class Question {
   final String correctAnswer;
   final List<dynamic> incorrectAnswers;
 
+// TEM QUE FAZER ESSE QUESTION LER AS PERGUNTAS DO JSON, AÍ NO QUESTIONS ELE VAI PEGAR A LISTA DE PERGUNTAS
+// QUE FOI FEITA AQUI
+// AGORA  ELE TA LENDO COMO SE TIVESSE APENAS UMA PERGUNTA SEM SER DENTRO DO ARRAY
+
   Question({this.type, this.id, this.question, this.correctAnswer, this.incorrectAnswers});
 
   factory Question.fromJson(Map<String, dynamic> parsedJson) {

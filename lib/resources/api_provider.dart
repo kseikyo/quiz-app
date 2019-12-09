@@ -11,7 +11,7 @@ Future<List<Question>> getQuestions(Category category) async {
 
   String jsonQ = await rootBundle.loadString('assets/data/$category.json');
   final jsonResponse = json.decode(jsonQ);
-  Category categoria = Category.fromJson(jsonResponse);
+  List<Question> categoria = Question.fromJson(jsonResponse);
 
   return categoria.questions;
 }

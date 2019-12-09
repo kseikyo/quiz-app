@@ -3,23 +3,8 @@ import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 import 'package:opentrivia/models/category.dart';
 import 'package:opentrivia/ui/widgets/quiz_options.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:opentrivia/resources/api_provider.dart';
 
-class HomePage extends StatefulWidget {
-
-  @override
-  _HomePageState createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
-  Future<List<Category>> categories;
-
-  @override
-  void initState(){
-    super.initState();
-    categories = getCategories();
-  }
-
+class HomePage extends StatelessWidget {
   final List<Color> tileColors = [
     Colors.green,
     Colors.blue,
@@ -40,15 +25,7 @@ class _HomePageState extends State<HomePage> {
         title: Text('OpenTrivia'),
         elevation: 0,
       ),
-      body: FutureBuilder(future: categories,
-      builder: (context, snapshot) {
-      if(!snapshot.hasData) {
-        print(snapshot.data);
-        return Center(child: CircularProgressIndicator());
-        
-      } else {
-      categories.then((onValue) => print('aaaa $onValue'));
-      Stack(
+      body: Stack(
         children: <Widget>[
           ClipPath(
             clipper: WaveClipperTwo(),
@@ -83,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   delegate: SliverChildBuilderDelegate(
                     _buildCategoryItem,
-                    childCount: categories.then((categories) => categories.length) as int,
+                    childCount: categories.length,
 
                   )
 
@@ -92,13 +69,12 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         ],
-      );
-      }}),
+      )
     );
   }
 
   Widget _buildCategoryItem(BuildContext context, int index) {
-    Category category = categories.then((onValue) => onValue[index]) as Category;
+    Category category = categories[index];
     return MaterialButton(
       elevation: 1.0,
       highlightElevation: 1.0,
