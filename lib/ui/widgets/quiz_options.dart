@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:opentrivia/models/category.dart';
 import 'package:opentrivia/models/question.dart';
+import 'package:opentrivia/models/questions.dart';
 import 'package:opentrivia/resources/api_provider.dart';
 import 'package:opentrivia/ui/pages/error.dart';
 import 'package:opentrivia/ui/pages/quiz_page.dart';
@@ -151,16 +152,16 @@ class _QuizOptionsDialogState extends State<QuizOptionsDialog> {
       processing=true;
     });
     try {
-      List<Question> questions =  await getQuestions(widget.category);
+      Questions questions =  await getQuestions(widget.category);
       Navigator.pop(context);
-      if(questions.length < 1) {
+      if(questions.perguntas.length < 1) {
         Navigator.of(context).push(MaterialPageRoute(
           builder: (_) => ErrorPage(message: "There are not enough questions in the category, with the options you selected.",)
         ));
         return;
       }
       Navigator.push(context, MaterialPageRoute(
-        builder: (_) => QuizPage(questions: questions, category: widget.category,)
+        builder: (_) => QuizPage(questions: questions.perguntas, category: widget.category,)
       ));
     }on SocketException catch (_) {
       Navigator.pushReplacement(context, MaterialPageRoute(

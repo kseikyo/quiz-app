@@ -7,9 +7,11 @@ class Questions {
   Questions({this.category, this.perguntas});
 
   factory Questions.fromJson(Map<String, dynamic> parsedJson) {
+    var list = parsedJson['perguntas'] as List;
+    List<Question> questions = list.map((p) => Question.fromJson(p)).toList();
     return Questions (
       category: parsedJson['category'],
-      perguntas: Question.fromJson(parsedJson['perguntas'])
+      perguntas: questions
     );
   }
 }
