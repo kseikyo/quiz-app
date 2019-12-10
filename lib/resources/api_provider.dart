@@ -12,7 +12,6 @@ Future<Questions> getQuestions(Category category) async {
   String jsonQ = await rootBundle.loadString('assets/data/${category.name}.json');
   final jsonResponse = json.decode(jsonQ);
   Questions questions = Questions.fromJson(jsonResponse);
-  print(questions);
   return questions;
 }
 

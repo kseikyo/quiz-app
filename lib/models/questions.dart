@@ -2,7 +2,7 @@ import 'package:opentrivia/models/question.dart';
 
 class Questions {
   final String category;
-  final List<Question> perguntas;
+  List<Question> perguntas;
 
   Questions({this.category, this.perguntas});
 

@@ -153,7 +153,9 @@ class _QuizOptionsDialogState extends State<QuizOptionsDialog> {
     });
     try {
       Questions questions =  await getQuestions(widget.category);
-      print (questions);
+      final List<dynamic> p = questions.perguntas;
+      p.shuffle();
+      questions.perguntas = p;
       Navigator.pop(context);
       if(questions.perguntas.length < 1) {
         Navigator.of(context).push(MaterialPageRoute(
