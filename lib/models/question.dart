@@ -26,7 +26,7 @@ class Question {
 
     return Question(
       type: Type.multiple,
-      id: parsedJson['id'],
+      id: parsedJson['id'].toString(),
       question: parsedJson['pergunta'],
       correctAnswer: parsedJson['correta'],
       incorrectAnswers: parsedJson['errada']

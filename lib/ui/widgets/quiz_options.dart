@@ -153,6 +153,7 @@ class _QuizOptionsDialogState extends State<QuizOptionsDialog> {
     });
     try {
       Questions questions =  await getQuestions(widget.category);
+      print (questions);
       Navigator.pop(context);
       if(questions.perguntas.length < 1) {
         Navigator.of(context).push(MaterialPageRoute(
@@ -167,11 +168,11 @@ class _QuizOptionsDialogState extends State<QuizOptionsDialog> {
       Navigator.pushReplacement(context, MaterialPageRoute(
         builder: (_) => ErrorPage(message: "Can't reach the servers, \n Please check your internet connection.",)
       ));
-    } catch(e){
-      print(e.message);
-      Navigator.pushReplacement(context, MaterialPageRoute(
-        builder: (_) => ErrorPage(message: "Unexpected error trying to connect to the API",)
-      ));
+    // } catch(e){
+    //   //print(e.message);
+    //   Navigator.pushReplacement(context, MaterialPageRoute(
+    //     builder: (_) => ErrorPage(message: "Unexpected error trying to connect to the API",)
+    //   ));
     }
     setState(() {
       processing=false;

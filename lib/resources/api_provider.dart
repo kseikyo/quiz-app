@@ -9,10 +9,10 @@ Future<Questions> getQuestions(Category category) async {
   // List<Map<String, dynamic>> questions = List<Map<String,dynamic>>.from(json.decode(res.body)["results"]);
   // return Question.fromData(questions);
 
-  String jsonQ = await rootBundle.loadString('assets/data/$category.json');
+  String jsonQ = await rootBundle.loadString('assets/data/${category.name}.json');
   final jsonResponse = json.decode(jsonQ);
   Questions questions = Questions.fromJson(jsonResponse);
-
+  print(questions);
   return questions;
 }
 
